@@ -29,8 +29,8 @@ io.sockets.on('connection', function(socket){
 });
 
 // process.env.PORT, allows heroku to choose port
-http.listen(process.env.PORT || 80, function(){
-  console.log('listening on *:80');
+http.listen(process.env.PORT || 8090, function(){
+  console.log('listening on *:8090');
 });
 
 
